@@ -1,0 +1,67 @@
+ctCRRTipo
+---------
+Consegne presso vs. Societa'
+Consultazione documenti
+Consultazione documenti in Loco
+Consultazione documenti presso Madoc
+Consultazione documenti tramite posta elettronica
+Consultazione, ricerca documenti ed invio tramite 
+Consultazione, ricerca documenti ed invio tramite posta elettronica
+Ricerca/Consultazione documenti
+
+
+
+
+ctCRRType: IIf([ctCRRTipo]="Consegne presso vs. Societa'";"Delivery of documents at your premises";
+IIf([ctCRRTipo]="Consultazione documenti";"Consultation of documents";
+IIf([ctCRRTipo]="Consultazione documenti in loco";"Consultation of documents at our premises";
+IIf([ctCRRTipo]="Consultazione documenti presso Madoc";"Consultation of documents at Madoc";
+IIf([ctCRRTipo]="Ricerca/Consultazione documenti";"Research and consultation of documents";
+IIf([ctCRRTipo]="Consultazione documenti tramite posta elettronica";"Delivery of documents by email";"Some other")))))
+
+
+ctCRRType: IIf([ctCRRTipo]="Consegne presso vs. Societa'";"Delivery of documents at your premises";IIf([ctCRRTipo]="Consultazione documenti";"Consultation of documents";IIf([ctCRRTipo]="Consultazione documenti in loco";"Consultation of documents at our premises";IIf([ctCRRTipo]="Consultazione documenti presso Madoc";"Consultation of documents at Madoc";IIf([ctCRRTipo]="Ricerca/Consultazione documenti";"Research and consultation of documents";IIf([ctCRRTipo]="Consultazione documenti tramite posta elettronica";"Delivery of documents by email";"Some other")))))
+
+
+
+ctCRRModo
+---------
+Data di Consegna
+Data di Consegna ( restituzione definitiva)
+Data di Consegna (Documenti Boreale S.r.l.)
+Data di Consegna (restituzione definitiva)
+Data di Consultazione
+Data di Consultazione (Documenti Boreale S.r.l.)
+Data di Consultazione via e-mail
+Data di Ricerca/Consultazione
+Ns. Bolla di consultazione in loco CIL 74 del
+
+ctCRRMode: IIf([ctCRRModo]="Data di Consegna";"Delivered on";
+IIf([ctCRRModo]="Data di Consegna ( restituzione definitiva)";"Delivered (final return) on";
+IIf([ctCRRModo]="Data di Consegna (restituzione definitiva)";"Delivered (final return) on";
+IIf([ctCRRModo]="Data di Consultazione";"Accessed on";
+IIf([ctCRRModo]="Data di Consultazione via e-mail";"Accessed by email on";
+IIf([ctCRRModo]="Data di Ricerca/Consultazione";"Accessed on";
+IIf([ctCRRModo]="Consultazione documenti tramite posta elettronica";"Delivery of documents by email";"Some other")))))))
+
+ctCRRMode: IIf([ctCRRModo]="Data di Consegna";"Delivered on";IIf([ctCRRModo]="Data di Consegna ( restituzione definitiva)";"Delivered (final return) on";IIf([ctCRRModo]="Data di Consegna (restituzione definitiva)";"Delivered (final return) on";IIf([ctCRRModo]="Data di Consultazione";"Accessed on";IIf([ctCRRModo]="Data di Consultazione via e-mail";"Accessed by email on";IIf([ctCRRModo]="Data di Ricerca/Consultazione";"Accessed on";IIf([ctCRRModo]="Consultazione documenti tramite posta elettronica";"Delivery of documents by email";"Some other")))))))
+
+ctCRRModo2
+----------
+15/04/2013 & 29/04/2013 Tramite e-mail
+CIL 116
+CIL 117  (consultato documenti IBS)
+CIL 118
+CIL 119
+CIL 120
+CIL 121
+Data di Consegna
+Data di Consultazione
+ns. Bolla # CIL 109
+ns. Bolla # CIL 81
+ns. CIL
+ns. DDT 
+ns.Bolla # CIL 101 / DDT # 9504
+ns.Bolla # CIL 79
+ns.DDT
+Tramite e-mail
